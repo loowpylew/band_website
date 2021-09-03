@@ -21,6 +21,11 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+@font-face {
+  font-family: 'Flames';
+  src: url('/fonts/60spsycho.ttf');
+}
+
 h1,
 h2,
 h3,
@@ -28,12 +33,12 @@ h4,
 h5,
 h6 {
   font-weight: 400;
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Flames";
   color: #afbac4;
 }
 
 p {
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Flames";
 }
 
 /*=================================================================
@@ -611,7 +616,7 @@ a:hover {
 
 .hero-area {
   background-size: cover;
-  height: 100vh;
+  height: 270vh;
   position: relative;
   display: flex;
   justify-content: center;
