@@ -34,10 +34,11 @@ h5,
 h6 {
   font-weight: 400;
   font-family: "Flames";
-  color: #afbac4;
+  color: #dbd4aae3;
 }
 
 p {
+  
   font-family: "Flames";
 }
 
@@ -622,6 +623,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  
 }
 
 .hero-area .block {
@@ -642,11 +644,12 @@ a:hover {
 }
 
 .hero-area .block h1 {
-  font-size: 90px;
+  font-size: 150px;
   color: #fff;
   text-transform: capitalize;
   font-weight: 700;
   margin-bottom: 20px;
+  color: #dbd4aae3;
 }
 
 @media (max-width: 480px) {
@@ -656,8 +659,8 @@ a:hover {
 }
 
 .hero-area .block p {
-  color: #fff;
-  font-size: 20px;
+  color: #636159e3;
+  font-size: 30px;
   width: 70%;
   margin: 0 auto;
 }
