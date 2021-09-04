@@ -31,12 +31,14 @@ h3,
 h4,
 h5,
 h6 {
+  letter-spacing: 2px;
   font-weight: 400;
   font-family: "Flames";
   color: #dbd4aae3;
 }
 
 p {
+  letter-spacing: 2px;
   font-family: "Flames";
 }
 
@@ -46,12 +48,12 @@ p {
 ::-moz-selection {
   /* Code for Firefox */
   color: #fff;
-  background: #57cbcc;
+  background: #612020;
 }
 
 ::selection {
   color: #fff;
-  background: #57cbcc;
+  background: #612020;
 }
 
 ol,
@@ -169,7 +171,7 @@ a:hover {
 }
 
 .color {
-  color: #6CB670;
+  color: #6CB670
 }
 
 .sub-title {
@@ -464,7 +466,7 @@ a:hover {
 }
 
 .header-bradcrumb a:hover {
-  color: #57cbcc;
+  color: #612020;
 }
 
 .slick-slide {
@@ -515,7 +517,7 @@ a:hover {
 }
 
 .pagination li a:hover, .pagination li a.active {
-  background: #57cbcc;
+  background: #612020;
   color: #fff;
 }
 
@@ -554,7 +556,16 @@ a:hover {
   left: 0;
   bottom: 0;
 }
+/*=================================================================
+  Sub Titles
+==================================================================*/
+.about-us-sub-title h2{
+  color:#dbd4aae3;
+}
 
+div.about-us-sub-title h2 > span.color{
+  color: #612020;
+}
 /*=================================================================
   Navigation
 ==================================================================*/
@@ -578,17 +589,19 @@ a:hover {
 }
 
 .navigation .navigation-menu li.active a {
-  color: #57cbcc;
+  color: #612020;
 }
 
 .navigation .navigation-menu li a {
   font-size: 16px;
-  color: #737f8a;
+  letter-spacing: 0.5px;
+  font-family: 'Flames';
+  color: #dbd4aae3;
 }
 
 .navigation .navigation-menu li a:hover, .navigation .navigation-menu li a:focus {
   background: transparent;
-  color: #57cbcc;
+  color: #612020;
 }
 
 .navbar-toggle {
@@ -643,7 +656,6 @@ a:hover {
 
 .hero-area .block h1 {
   font-size: 150px;
-  letter-spacing: 100px;
   color: #fff;
   text-transform: capitalize;
   font-weight: 700;
@@ -716,6 +728,7 @@ a:hover {
   border-bottom: 2px solid transparent;
   transition: .5s all;
   margin-bottom: 20px;
+
 }
 
 .about .block:hover {
