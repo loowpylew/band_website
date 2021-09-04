@@ -9,6 +9,10 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 /*=== MEDIA QUERY ===*/
 @import url("https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,600");
+@font-face {
+  font-family: 'Flames';
+  src: url('/fonts/Flames.ttf');
+}
 html {
   background-color: #353b43;
   color: #737f8a;
@@ -19,11 +23,6 @@ body {
   font-family: "Anaheim", sans-serif;
   color: #737f8a;
   -webkit-font-smoothing: antialiased;
-}
-
-@font-face {
-  font-family: 'Flames';
-  src: url('fonts/Flames-LWzG.ttf');
 }
 
 h1,
