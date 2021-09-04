@@ -32,7 +32,6 @@ h4,
 h5,
 h6 {
   font-weight: 400;
-  letter-spacing: 0.5em;
   font-family: "Flames";
   color: #dbd4aae3;
 }
@@ -644,6 +643,7 @@ a:hover {
 
 .hero-area .block h1 {
   font-size: 150px;
+  letter-spacing: 10em;
   color: #fff;
   text-transform: capitalize;
   font-weight: 700;
