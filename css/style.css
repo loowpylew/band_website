@@ -705,6 +705,7 @@ div.contact-us-sub-title h2 > span.color{
 
 div.maintitleblue h1 > span.color{
   color: #455de0e3;
+  letter-spacing: 2px;
 }
 
 @media (max-width: 480px) {
