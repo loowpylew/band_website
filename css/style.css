@@ -633,7 +633,7 @@ div.contact-us-sub-title h2 > span.color{
 
 .navigation .navigation-menu li a {
   font-size: 25px;
-  margin-left: -13px;
+  margin-left: -17px;
   letter-spacing: 1px;
   font-family: 'Flames';
   color: #dbd4aae3;
@@ -840,24 +840,59 @@ div.maintitleblue h1 > span.color{
   color: #afbac4;
 }
 
-.region-para{ 
+.region-para p{ 
   font-family: "Gorgia";
-
 }		
+.genre-para p{
+  font-family: "Gorgia";
+}
+.future-para p{ 
+  font-family: "Gorgia";
+}
 
 /*=================================================================
   About us 2 section
 ==================================================================*/
+#about{ 
+  margin-bottom: -140px;
+}
+
+.col-md-6.padding-0 > img{
+  width: 800px;
+  height: 800px; 
+  margin-top: -150px; 
+  margin-left: 50px;
+}
+
 .about-2 .content-block {
   padding: 40px;
+  margin-left: -70px;
+}
+.about-2 .content-block p{
+  font-family: "Georgia";
+  margin-top: 10px;
+  
+}
+
+.col-md-6{
+  margin-left: -30px; 
+}
+
+.col-md-6-2{
+  margin-left: -20px; 
 }
 
 .about-2 .content-block .media {
   margin-top: 25px;
+  margin-left: -40px; 
 }
 
 .about-2 .content-block .media .pull-left {
   padding-right: 15px;
+}
+
+.about-2 .content-block .media .pull-left > img {
+  margin-top: -12px;
 }
 
 .about-2 .content-block .media i {
@@ -866,8 +901,8 @@ div.maintitleblue h1 > span.color{
 }
 
 .about-2 .content-block .media h4 {
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 200;
 }
 
 /*=================================================================
