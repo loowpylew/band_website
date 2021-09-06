@@ -806,6 +806,12 @@ div.maintitleblue h1 > span.color{
   transition-property: transform, -webkit-transform;
 }
 
+.about .block .icon-box img{
+  width: 100px;
+  height: 100px;
+  margin-top: -20px;
+}
+
 .about .block .icon-box:after, .about .block .icon-box:before {
   content: "";
   position: absolute;
@@ -833,6 +839,11 @@ div.maintitleblue h1 > span.color{
 .about .block .icon-box h3 {
   color: #afbac4;
 }
+
+.region-para{ 
+  font-family: "Gorgia";
+
+}		
 
 /*=================================================================
   About us 2 section
