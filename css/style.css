@@ -905,9 +905,14 @@ div.maintitleblue h1 > span.color{
   font-weight: 200;
 }
 
+
 /*=================================================================
  Call To Action 1
 ==================================================================*/
+.recent-gigs-para > p{
+  font-family: Georgia;
+}
+
 .call-to-action {
   background-attachment: fixed;
 }
@@ -924,7 +929,15 @@ div.maintitleblue h1 > span.color{
 
 .call-to-action .btn-main {
   margin-top: 20px;
+  background-color: #455de0e3;
 }
+
+.call-to-action .btn-main:hover{
+  background-color: white;
+  color:black; 
+}
+
+
 
 /*=================================================================
  Call To Action 2
