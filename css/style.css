@@ -909,6 +909,10 @@ div.maintitleblue h1 > span.color{
 /*=================================================================
  Call To Action 1
 ==================================================================*/
+.recent-gig-title h2{ 
+  font-size: 40px;
+}
+
 .recent-gigs-para > p{
   font-family: Georgia;
 }
