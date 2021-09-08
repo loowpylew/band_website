@@ -171,7 +171,7 @@ a:hover {
 }
 
 .color {
-  color: #6CB670
+  color: #f3f4fae3;
 }
 
 .sub-title {
@@ -892,7 +892,7 @@ div.maintitleblue h1 > span.color{
 }
 
 .about-2 .content-block .media .pull-left > img {
-  margin-top: -12px;
+  margin-top: -5px;
 }
 
 .about-2 .content-block .media i {
@@ -911,6 +911,7 @@ div.maintitleblue h1 > span.color{
 ==================================================================*/
 .recent-gig-title h2{ 
   font-size: 40px;
+  
 }
 
 .recent-gigs-para > p{
@@ -923,12 +924,12 @@ div.maintitleblue h1 > span.color{
 
 .call-to-action h2 {
   font-weight: 700;
-  color: #444;
+  color: #dbd4aae3;
 }
 
 .call-to-action p {
   font-size: 16px;
-  color: #666;
+  color: whitesmoke;
 }
 
 .call-to-action .btn-main {
@@ -1265,6 +1266,19 @@ div.maintitleblue h1 > span.color{
   margin-bottom: 20px;
   width: 55px;
   transition: all 0.3s ease 0s;
+}
+
+.ticket-link{
+  color: white; 
+  font-family: "Georgia"
+}
+
+.ticket-link:hover { 
+  color: #455de0e3;
+}
+
+.tickets-para p{ 
+  font-family: "Georgia";
 }
 
 /*=================================================================
