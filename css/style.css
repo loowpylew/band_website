@@ -1003,10 +1003,6 @@ div.maintitleblue h1 > span.color{
   margin: 0;
 }
 
-.google-map #map-canvas {
-  height: 400px;
-}
-
 .contact-info p {
   margin-bottom: 25px;
   font-family: "Georgia";
@@ -1063,9 +1059,10 @@ div.maintitleblue h1 > span.color{
   padding: 10px;
 }
 
-#map {
-  height: 370px;
-  width: 100%;
+#status { 
+  margin-top: 10px; 
+  margin-left: 200px; 
+  color: whitesmoke;
 }
 
 /*=================================================================
@@ -1185,7 +1182,7 @@ div.maintitleblue h1 > span.color{
 }
 
 /*=================================================================
-  Portfolio section
+  Merchendise section
 ==================================================================*/
 .portfolio-filter {
   margin-bottom: 40px;
