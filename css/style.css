@@ -995,7 +995,7 @@ div.maintitleblue h1 > span.color{
   margin: 0;
 }
 
-.btn.btn-transparent {
+.btn.btn-transparent.submit {
   border: 1px solid rgba(236, 239, 241, 0.07);
   background: #455de0e3;
   padding: 12px 0;
