@@ -32,14 +32,14 @@ h3,
 h4,
 h5,
 h6 {
-  letter-spacing: 0.20833333333333334vw;
+  letter-spacing: 4px;
   font-weight: 400;
   font-family: "Flames";
   color: #dbd4aae3;
 }
 
 p {
-  letter-spacing: 0.10416666666666667vw;
+  letter-spacing: 2px;
   font-family: "Flames";
 }
 
@@ -100,7 +100,7 @@ a:hover {
 .btn {
   background-color: transparent;
   color: #fff;
-  padding: 0.5208333333333334vw 1.5625vw;
+  padding: 10px 30px;
   border-radius: 0;
   transition: all .3s ease-in 0s;
 }
@@ -110,19 +110,19 @@ a:hover {
 }
 
 .btn-transparent {
-  border: 0.052083333333333336vw solid #4e595f;
+  border: 1px solid #4e595f;
 }
 
 .btn-transparent:hover, .btn-transparent:focus {
   background-color: #455de0e3;
-  border: 0.052083333333333336vw solid transparent;
+  border: 1px solid transparent;
   color: #fff;
 }
 
 .form-control {
   background-color: #2f383d;
   border-radius: 0;
-  padding: 0.2604166666666667vw 0.5208333333333334vw;
+  padding: 5px 10px;
   border: 0 none;
   color: #ddd;
 }
@@ -152,9 +152,9 @@ a:hover {
 }
 
 .border {
-  border-top: 0.10416666666666667vw solid rgba(236, 239, 241, 0.07);
-  height: 0.052083333333333336vw;
-  margin: 0.78125vw auto 0;
+  border-top: 2px solid rgba(236, 239, 241, 0.07);
+  height: 1px;
+  margin: 15px auto 0;
   position: relative;
   width: 30%;
 }
@@ -162,12 +162,12 @@ a:hover {
 .border:before {
   background-color: #fff;
   content: '';
-  height:  0.3125vw;
+  height: 6px;
   left: 50%;
-  margin-left: -1.0416666666666667vw;
+  margin-left: -20px;
   position: absolute;
-  top: -0.20833333333333334vw;
-  width: 2.6041666666666665vw;
+  top: -4px;
+  width: 50px;
   background-color: #455de0e3;
 }
 
@@ -176,14 +176,14 @@ a:hover {
 }
 
 .sub-title {
-  padding: 0 0 2.6041666666666665vw;
+  padding: 0 0 50px;
 }
 
 .sub-title > h3 {
-  border-left: 0.15625vw solid #ddd;
-  border-right: 0.15625vw solid #ddd;
+  border-left: 3px solid #ddd;
+  border-right: 3px solid #ddd;
   display: inline-block;
-  padding: 0.2604166666666667vw 1.3020833333333333vw;
+  padding: 5px 25px;
   text-transform: uppercase;
 }
 
@@ -251,9 +251,9 @@ a:hover {
   background: #57cbcc;
   color: #fff;
   display: inline-block;
-  font-size: 0.7291666666666666vw;
-  letter-spacing: 0.052083333333333336vw;
-  padding: 0.5208333333333334vw 1.8229166666666667vw;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 10px 35px;
   text-transform: uppercase;
 }
 
@@ -263,31 +263,31 @@ a:hover {
 }
 
 .mt-20 {
-  margin-top: 1.0416666666666667vw;
+  margin-top: 20px;
 }
 
 .section {
-  padding: 5.208333333333333vw 0;
+  padding: 100px 0;
 }
 
-@media (max-width: 25vw) {
+@media (max-width: 480px) {
   .section {
-    padding: 2.6041666666666665vw 0;
+    padding: 50px 0;
   }
 }
 
-@media (max-width: 40vw) {
+@media (max-width: 768px) {
   .section {
-    padding: 2.6041666666666665vw 0;
+    padding: 50px 0;
   }
 }
 
 .section-sm {
-  padding: 3.6458333333333335vw 0;
+  padding: 70px 0;
 }
 
 .section-xs {
-  padding: 2.6041666666666665vw 0;
+  padding: 50px 0;
 }
 
 .btn:focus {
@@ -326,8 +326,8 @@ a:hover {
 }
 
 .sk-cube-grid {
-  width: 2.0833333333333335vw;
-  height: 2.0833333333333335vw;
+  width: 40px;
+  height: 40px;
 }
 
 .sk-cube-grid .sk-cube {
@@ -411,7 +411,7 @@ a:hover {
 }
 
 .title {
-  padding-bottom: 3.125vw;
+  padding-bottom: 60px;
 }
 
 .title h2 {
@@ -495,15 +495,15 @@ a:hover {
 }
 
 .mb-30 {
-  margin-bottom: 1.5625vw;
+  margin-bottom: 30px;
 }
 
 .mb-40 {
-  margin-bottom: 2.0833333333333335vw;
+  margin-bottom: 40px;
 }
 
 .mb-50 {
-  margin-bottom: 2.6041666666666665vw;
+  margin-bottom: 50px;
 }
 
 .pagination li {
@@ -524,25 +524,25 @@ a:hover {
 
 .pagination-lg > li:first-child > a,
 .pagination-lg > li:first-child > span {
-  border-top-left-radius: 0vw;
-  border-bottom-left-radius: 0vw;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 
 .pagination-lg > li:last-child > a,
 .pagination-lg > li:last-child > span {
-  border-top-right-radius: 0vw;
-  border-bottom-right-radius: 0vw;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .logo {
-  margin-top: 0.5208333333333334vw;
+  margin-top: 10px;
   display: inline-block;
 }
 
 .single-page-header {
   background-image: url("../images/about/about-header.jpg");
   background-size: cover;
-  padding:  7.291666666666667vw 0 3.6458333333333335vw;
+  padding: 140px 0 70px;
   text-align: center;
   color: #fff;
   position: relative;
@@ -593,13 +593,13 @@ div.the-band-sub-title h2 > span.color{
 
 .blog-sub-title h2{
   color: #dbd4aae3;
-  margin-bottom: 1.0416666666666667vw; 
-  margin-left: 25vw; 
-  font-size: 1.8229166666666667vw; 
+  margin-bottom: 20px; 
+  margin-left: 480px; 
+  font-size: 35px; 
 }
 
 .blog-sub-title.border{ 
-  margin-bottom: 2.6041666666666665vw; 
+  margin-bottom: 50px; 
 }
 
 div.blog-sub-title h2 > span.color{
@@ -623,7 +623,7 @@ div.contact-us-sub-title h2 > span.color{
   width: 100%;
   z-index: 99;
   margin-bottom: 0;
-  padding: 0.5208333333333334vw;
+  padding: 10px;
 }
 
 .navigation .logo {
@@ -634,7 +634,7 @@ div.contact-us-sub-title h2 > span.color{
 
 .navigation .logo img {
   height: auto;
-  width: 7.291666666666667vw;
+  width: 140px;
 }
 
 .navigation .navigation-menu li.active a {
@@ -642,9 +642,9 @@ div.contact-us-sub-title h2 > span.color{
 }
 
 .navigation .navigation-menu li a {
-  font-size: 2.0833333333333335vw;
-  margin-left: 0.4166666666666667vw;
-  letter-spacing: 0.052083333333333336vw;
+  font-size: 40px;
+  margin-left: 8px;
+  letter-spacing: 1px;
   font-family: 'Flames';
   color: #dbd4aae3;
 }
