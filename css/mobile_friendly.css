@@ -23,7 +23,7 @@ html {
 body {
   background-color: #353b43;
   font-family: "Anaheim", sans-serif;
-  color: #f5f9fd;
+  color: #737f8a;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
 }
@@ -317,12 +317,12 @@ a:hover {
 
 .preloader {
   background: #fff;
-  height: 90%;
+  height: 100%;
   left: 0;
   position: fixed;
   text-align: center;
   top: 0;
-  width: 88%;
+  width: 100%;
   z-index: 99999;
   display: flex;
   justify-content: center;
@@ -887,7 +887,7 @@ div.maintitleblue h1 > span.color{
 
 .about-2 .content-block h2{
     margin-top: -80px; 
-    margin-left: 0px; 
+    margin-left: 5px; 
   }
 
 .about-2 .content-block p{
@@ -902,22 +902,22 @@ div.maintitleblue h1 > span.color{
 }
 
 #apple-music{ 
-  margin-left: 25px; 
+  margin-left: 30px; 
 }
 
 #spotify{
-  margin-left: 40px; 
+  margin-left: 43px; 
   margin-top: 10px;
 
 }
 
 #youtube{
-  margin-left: 38px; 
+  margin-left: 40px; 
   margin-top: 10px;
 }
 
 #deezer{
-  margin-left: 42px; 
+  margin-left: 44px; 
   margin-top: 10px;
 }
 
@@ -1126,7 +1126,7 @@ div.maintitleblue h1 > span.color{
 
 #status { 
   margin-top: 10px; 
-  margin-left: 200px; 
+  margin-left: 80px; 
   color: whitesmoke;
 }
 
