@@ -15,16 +15,17 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
   src: url('/fonts/Flames.ttf');
 }
 html {
-  background-color: #353b43;
+  background-color: #076df3;
   color: #737f8a;
-  min-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
   background-color: #353b43;
   font-family: "Anaheim", sans-serif;
-  color: #737f8a;
+  color: #f5f9fd;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 h1,
