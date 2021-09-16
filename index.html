@@ -35,9 +35,9 @@
 	<link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
 	<link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
 	<!-- Main Stylesheet -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/desktop_friendly.css">
 	
-	<link rel="stylesheet" media="screen and (max-width: 500px)" href="css/mobile.css">
+	<link rel="stylesheet" media="screen and (max-width: 500px)" href="css/mobile_friendly.css">
 
 
 
@@ -67,7 +67,7 @@
 Welcome Slider
 ==================================== -->
 
-<section class="hero-area overlay" style="background-image: url('images/banner/Deep_Blue_Hippie_Hive_background.png'); height: 1000px;">
+<section class="hero-area overlay" style="background-image: url('images/banner/Deep_Blue_Hippie_Hive_background.png'); height: 650px;">
 	<!--<video autoplay muted loop class="hero-video">
 		<source src="images/banner/.mp4" type="video/mp4">
 	</video> -->
@@ -223,19 +223,19 @@ Welcome Slider
 			<div class="col-md-6">
 				<div class="content-block">
 					<h2>LISTEN TO OUR <span id="music-now">MUSIC NOW</span></h2>
-					<a href="https://music.apple.com/us/browse" class="btn btn-transparent"><div class="apple_music">
+					<a href="https://music.apple.com/us/browse" class="btn btn-transparent" id="apple-music"><div class="apple_music">
 						<img src=images/about/apple_icon.png height="20px" width="20px"></div>APPLE MUSIC</a>	
 
-					<a href="https://www.spotify.com/us/" class="btn btn-transparent"><div class="spotify">
+					<a href="https://www.spotify.com/us/" class="btn btn-transparent" id="spotify"><div class="spotify">
 						<img src=images/about/spotify_icon.png height="20px" width="20px"></div>SPOTIFY</a>
 					
-					<a href="https://www.youtube.com/" class="btn btn-transparent"><div class="youtube">
+					<a href="https://www.youtube.com/" class="btn btn-transparent" id="youtube"><div class="youtube">
 						<img src=images/about/youtube_icon.png height="20px" width="20px"></div>YOUTUBE</a>	
 
-					<a href="https://www.deezer.com/en/" class="btn btn-transparent"><div class="deezer">
+					<a href="https://www.deezer.com/en/" class="btn btn-transparent"id="deezer"><div class="deezer">
 						<img src=images/about/deezer_icon.png height="20px" width="20px"></div>DEEZER</a>
 					
-					<a href="https://www.amazon.co.uk/music/unlimited?ref_=dmm_acq_mrn_d_br_z_Wu5a5KWp-c_c_541151146783_g_93830805330&gclid=Cj0KCQjw-NaJBhDsARIsAAja6dOT85uqDgSAxoOToTjOAvVwCtOCDrb_ozqeCmrc_psrQ6IoGec_yJoaAnS1EALw_wcB" class="btn btn-transparent"><div class="apple_music">
+					<a href="https://www.amazon.co.uk/music/unlimited?ref_=dmm_acq_mrn_d_br_z_Wu5a5KWp-c_c_541151146783_g_93830805330&gclid=Cj0KCQjw-NaJBhDsARIsAAja6dOT85uqDgSAxoOToTjOAvVwCtOCDrb_ozqeCmrc_psrQ6IoGec_yJoaAnS1EALw_wcB" class="btn btn-transparent" id="amazon-music"><div class="apple_music">
 						<img src=images/about/amazon_icon.png height="20px" width="20px"></div>AMAZON MUSIC</a>	
 					
 
@@ -250,8 +250,10 @@ Welcome Slider
 								</div>
 								<div class="media-body">
 									<h4 class="media-heading">CURRENT ALBUM - EP</h4> 
-									<p>Our new album ["Unknown name"] is out! We have put our heart 
-									   and soul into this album so we hope you enjoy it as much as we have and thank you to everyone for all the support.</p>
+									<div class="about-us-2-2nd-pg">
+										<p>Our new album ["Unknown name"] is out! We have put our heart 
+											and soul into this album so we hope you enjoy it as much as we have and thank you to everyone for all the support.</p>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -513,7 +515,8 @@ Start Call To Action
 				<div class="portfolio-block">
 					<img class="img-responsive" src="images/portfolio/album.png" alt="">
 					<div class="caption">
-						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/album.png" data-lightbox="image-1">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/album.png" 
+						    data-lightbox="image-1">
 							<i class="tf-ion-android-search"></i>
 						</a>
 						<h4><a href="">CD of our most recent album</a></h4>
