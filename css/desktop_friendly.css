@@ -575,6 +575,10 @@ div.tickets-sub-title h2 > span.color{
   color: #455de0e3;
 }
 
+.tickets-sub-title > h2{
+  margin-top: 40px; 
+}
+
 .merchendise-sub-title h2{
   color:#dbd4aae3;
 }
@@ -588,21 +592,6 @@ div.merchendise-sub-title h2 > span.color{
 }
 
 div.the-band-sub-title h2 > span.color{
-  color: #455de0e3;
-}
-
-.blog-sub-title h2{
-  color: #dbd4aae3;
-  margin-bottom: 20px; 
-  margin-left: 480px; 
-  font-size: 35px; 
-}
-
-.blog-sub-title.border{ 
-  margin-bottom: 50px; 
-}
-
-div.blog-sub-title h2 > span.color{
   color: #455de0e3;
 }
 
@@ -626,24 +615,16 @@ div.contact-us-sub-title h2 > span.color{
   padding: 10px;
 }
 
-.navigation .logo {
-  padding: 0;
-  height: auto;
-  margin-top: 0;
-}
-
-.navigation .logo img {
-  height: auto;
-  width: 140px;
-}
-
 .navigation .navigation-menu li.active a {
   color: #455de0e3;
 }
 
+.navigation .navigation-menu{
+  margin-right: 40px; 
+}
 .navigation .navigation-menu li a {
   font-size: 40px;
-  margin-left: 8px;
+  margin-right: 5px;
   letter-spacing: 1px;
   font-family: 'Flames';
   color: #dbd4aae3;
@@ -914,44 +895,6 @@ div.maintitleblue h1 > span.color{
   font-size: 20px;
   font-weight: 200;
 }
-
-
-/*=================================================================
- Call To Action 1
-==================================================================*/
-.recent-gig-title h2{ 
-  font-size: 40px;
-  
-}
-
-.recent-gigs-para > p{
-  font-family: Georgia;
-}
-
-.call-to-action {
-  background-attachment: fixed;
-}
-
-.call-to-action h2 {
-  font-weight: 700;
-  color: #dbd4aae3;
-}
-
-.call-to-action p {
-  font-size: 16px;
-  color: whitesmoke;
-}
-
-.call-to-action .btn-main {
-  margin-top: 20px;
-  background-color: #455de0e3;
-}
-
-.call-to-action .btn-main:hover{
-  background-color: white;
-  color:black; 
-}
-
 
 
 /*=================================================================
