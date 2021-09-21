@@ -1857,7 +1857,7 @@ div.maintitleblue h1 > span.color{
 }
 
 .warning p { 
-  margin-top: 10px;
+  margin-top: -20px;
   margin-left: 15px;
   font-size: 10px;
   font-family: Georgia;
