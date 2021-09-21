@@ -1856,6 +1856,13 @@ div.maintitleblue h1 > span.color{
   border: 1px solid #57cbcc;
 }
 
+.warning p { 
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 10px;
+  font-family: Georgia;
+}
+
 /*=================================================================
 	Twitter Feed
 ==================================================================*/
