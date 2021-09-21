@@ -1741,9 +1741,9 @@ div.maintitleblue h1 > span.color{
 
 .warning p { 
   margin-top: -20px;
-  margin-left: 360px;
   font-size: 10px;
   font-family: Georgia;
+  color: lightgray;
 }
 
 /*=================================================================
