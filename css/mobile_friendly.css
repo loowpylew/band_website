@@ -733,7 +733,7 @@ div.maintitleblue h1 > span.color{
 }
 
 .hero-area .block p {
-  color: #dbd4aae3;
+  color: rgb(189, 185, 185);
   font-size: 30px;
   width: 70%;
   margin: 0 auto;
